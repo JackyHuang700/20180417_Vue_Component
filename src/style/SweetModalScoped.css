@@ -1,0 +1,159 @@
+.sweet-button {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  cursor: default;
+  display: inline-block;
+  text-decoration: none;
+  outline: 0;
+  text-align: center;
+  position: relative;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background: #1e88e5;
+  border: 1px solid #1468b1;
+  border-radius: 2px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.sweet-button,
+.sweet-button > a {
+  color: #fff;
+}
+.sweet-button.size-big {
+  font-size: 16px;
+}
+.sweet-button.color-accent {
+  background-color: #fc0061;
+  border-color: #bf0049;
+}
+.sweet-button.color-accent:hover {
+  background-color: #ff2679;
+}
+.sweet-button.color-accent:active,
+.sweet-button.color-accent.active {
+  background-color: #e30057;
+}
+.sweet-button.color-blue {
+  background-color: #1e88e5;
+  border-color: #1468b1;
+}
+.sweet-button.color-blue:hover {
+  background-color: #439be9;
+}
+.sweet-button.color-blue:active,
+.sweet-button.color-blue.active {
+  background-color: #187bd1;
+}
+.sweet-button.color-red {
+  background-color: #f44336;
+  border-color: #e11b0c;
+}
+.sweet-button.color-red:hover {
+  background-color: #f6675d;
+}
+.sweet-button.color-red:active,
+.sweet-button.color-red.active {
+  background-color: #f32c1e;
+}
+.sweet-button.color-pink {
+  background-color: #fc0061;
+  border-color: #bf0049;
+}
+.sweet-button.color-pink:hover {
+  background-color: #ff2679;
+}
+.sweet-button.color-pink:active,
+.sweet-button.color-pink.active {
+  background-color: #e30057;
+}
+.sweet-button.color-light-grey {
+  background-color: #999aa0;
+  border-color: #797b82;
+}
+.sweet-button.color-light-grey:hover {
+  background-color: #aeafb4;
+}
+.sweet-button.color-light-grey:active,
+.sweet-button.color-light-grey.active {
+  background-color: #8c8d94;
+}
+.sweet-button.color-code {
+  background-color: #141821;
+  border-color: black;
+}
+.sweet-button.color-code:hover {
+  background-color: #232a3a;
+}
+.sweet-button.color-code:active,
+.sweet-button.color-code.active {
+  background-color: #0a0c11;
+}
+.sweet-button.color-header {
+  background-color: #141822;
+  border-color: black;
+}
+.sweet-button.color-header:hover {
+  background-color: #232a3c;
+}
+.sweet-button.color-header:active,
+.sweet-button.color-header.active {
+  background-color: #0b0d12;
+}
+.sweet-button.color-border {
+  background-color: #f2f2f2;
+  border-color: lightgray;
+}
+.sweet-button.color-border:hover {
+  background-color: white;
+}
+.sweet-button.color-border:active,
+.sweet-button.color-border.active {
+  background-color: #e5e5e5;
+}
+.sweet-button.color-light-background {
+  background-color: #f6f7fb;
+  border-color: #ccd1e8;
+}
+.sweet-button.color-light-background:hover {
+  background-color: white;
+}
+.sweet-button.color-light-background:active,
+.sweet-button.color-light-background.active {
+  background-color: #e4e7f3;
+}
+.sweet-button + .sweet-button {
+  margin-left: 12px;
+}
+
+.color-white.color-white {
+  color: white;
+}
+
+.sweet-modal .sweet-title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 64px;
+  line-height: 64px;
+  border-bottom: 1px solid #eaeaea;
+  padding-left: 32px;
+  padding-right: 64px;
+}
+.sweet-modal .sweet-title > h2 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 22px;
+}
