@@ -41,6 +41,7 @@
         </p>
       </div>
     </form>
+    {{errors}}
   </div>
 </template>
 <script>
@@ -53,7 +54,7 @@ export default {
   data () {
     return {
       email: '',
-      name: '',
+      // name: '',
       phone: '',
       url: ''
     }

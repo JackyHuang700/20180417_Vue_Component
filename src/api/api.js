@@ -1,9 +1,9 @@
 import axios from 'axios'
 
-export const apiDataTableGet = '/api/DataTable/Get'
+export const apiValidateCoupon = '/api/validate/coupon'
 
-export const methodGetDataTableGet = params => {
-  return axios.get(apiDataTableGet, {
+export const methodValidateCoupon = params => {
+  return axios.post(apiValidateCoupon, {
     params: params
   })
 }
