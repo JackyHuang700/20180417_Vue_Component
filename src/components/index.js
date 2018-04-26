@@ -11,6 +11,7 @@ import VeeValidate4 from './VeeValidate4'
 import VeeValidate5 from './VeeValidate5'
 import VeeValidate6 from './VeeValidate6'
 import SwitchBtnPropsBind from './SwitchBtnPropsBind'
+import InputTag from './InputTag'
 
 export {
   // table
@@ -32,5 +33,8 @@ export {
   VeeValidate6,
 
   // 其他
-  SwitchBtnPropsBind
+  SwitchBtnPropsBind,
+
+  // input
+  InputTag
 }

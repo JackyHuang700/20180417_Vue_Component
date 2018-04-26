@@ -12,6 +12,7 @@ import SweetModalLayout from '@/container/SweetModalLayout'
 import IziToastLayout from '@/container/IziToastLayout'
 import VeeValidateLayout from '@/container/VeeValidateLayout'
 import PropsBindLayout from '@/container/PropsBindLayout'
+import InputTagLayout from '@/container/InputTagLayout'
 
 Vue.use(Router)
 
@@ -61,6 +62,11 @@ export default new Router({
       path: '/PropsBindLayout',
       name: 'PropsBindLayout',
       component: PropsBindLayout
+    },
+    {
+      path: '/InputTagLayout',
+      name: 'InputTagLayout',
+      component: InputTagLayout
     }
   ]
 })
